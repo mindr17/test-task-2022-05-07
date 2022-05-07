@@ -1,0 +1,75 @@
+$path: './assets/fonts';
+/* -----FONTS--------------------------------------------------------------------- */
+@font-face {
+  font-family: Arial;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Arial'),
+    url($path + '/ArialMT.woff') format('woff');
+}
+@font-face {
+  font-family: Georgia;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Georgia'),
+    url($path + '/Georgia.woff') format('woff');
+}
+@font-face {
+  font-family: Georgia;
+  font-weight: 700;
+  font-display: swap;
+  src: local('Georgia'),
+    url($path + '/georgiab.ttf') format('ttf');
+}
+@font-face {
+  font-family: Georgia;
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+  src: local('Georgia'),
+    url($path + '/Georgia.woff') format('woff');
+}
+/* -----GENERAL------------------------------------------------------------------- */
+html {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  padding: 0;
+  margin: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+ul,
+ol,
+li {
+  list-style: none;
+}
+a {
+  color: inherit;
+}
+a,
+a:active,
+a:hover {
+  cursor: pointer;
+  text-decoration: none;
+  transition: background-color 0.3s ease-in-out;
+}
+img {
+  vertical-align: top;
+}
+html,
+body {
+  height: 100%;
+  // overflow-x: hidden;
+}
