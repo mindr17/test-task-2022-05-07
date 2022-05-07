@@ -1,1 +1,0 @@
-# https://mindr17.github.io/test-task-2022-05-07/
