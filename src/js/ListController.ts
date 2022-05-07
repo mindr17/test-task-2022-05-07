@@ -1,7 +1,4 @@
-import Control from './Control';
-import Item from './Item';
 import ListModel from './ListModel';
-import ListView from './ListView';
 
 class ListController {
   public node: HTMLElement;
@@ -12,14 +9,9 @@ class ListController {
     this.listModel = listModel;
   }
 
-  public press(id) {
+  public press(id: number): void {
     this.listModel.pressed = id;
   }
-  
-  public unPress() {
-    this.listModel.pressed = -1;
-  }
-
 }
 
 export default ListController;
